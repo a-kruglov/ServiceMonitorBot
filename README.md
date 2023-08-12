@@ -18,20 +18,21 @@ Service Monitor Bot is a Python-based bot that allows you to monitor, start, sto
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/a-kruglov/ServiceMonitorBot
-```
+   ```bash
+   git clone https://github.com/a-kruglov/ServiceMonitorBot
+   ```
 
-2. Install the required dependencies:
-```bash
-pip install telebot systemd
-```
+3. Install the required dependencies:
+   ```bash
+   pip install telebot systemd
+   ```
 
-3. Edit the `config.py` file with your bot token, chat ID, and the services you want to monitor.
+5. Edit the `config.py` file with your bot token, chat ID, and the services you want to monitor.
 
-```bash
-python main.py
-```
+6. Run the bot:
+   ```bash
+   python main.py
+   ```
 
 ## Usage
 
