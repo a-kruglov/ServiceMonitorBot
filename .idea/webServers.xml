@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="60a275df-5d80-41f5-a84c-85edd0e39140" name="fornex">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="185.195.69.218" port="22" sshConfigId="4bd0497e-dba6-4826-8eec-6b8bdd5a9e84" sshConfig="root@185.195.69.218:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
