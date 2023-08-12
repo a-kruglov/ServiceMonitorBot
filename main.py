@@ -2,13 +2,13 @@ import subprocess
 import threading
 import time
 import telebot
-from config import bot_token, chat_id
+from config import bot_token, chat_id, services_to_monitor
+
 from telebot import types
 from systemd import journal
 
 
 bot = telebot.TeleBot(bot_token)
-services_to_monitor = ['gpt.service', 'fable_forge.service']  # Edit the list of services here
 
 
 def send_buffer(service_name, buffer):
